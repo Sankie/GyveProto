@@ -1,0 +1,571 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6FAB2F31C70369F007311AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB2F21C70369F007311AD /* main.m */; };
+		D6FAB2F61C70369F007311AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB2F51C70369F007311AD /* AppDelegate.m */; };
+		D6FAB2F91C70369F007311AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB2F81C70369F007311AD /* ViewController.m */; };
+		D6FAB2FC1C70369F007311AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB2FA1C70369F007311AD /* Main.storyboard */; };
+		D6FAB2FE1C70369F007311AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB2FD1C70369F007311AD /* Assets.xcassets */; };
+		D6FAB3011C70369F007311AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6FAB2FF1C70369F007311AD /* LaunchScreen.storyboard */; };
+		D6FAB30C1C70369F007311AD /* GyveProtoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB30B1C70369F007311AD /* GyveProtoTests.m */; };
+		D6FAB32A1C712ECF007311AD /* UIView+UIViewExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB3291C712ECF007311AD /* UIView+UIViewExtensions.m */; };
+		D6FAB32D1C7156A8007311AD /* ImageSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB32C1C7156A8007311AD /* ImageSelectorViewController.m */; };
+		D6FAB3301C71693B007311AD /* UIViewController+UIViewControllerExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB32F1C71693B007311AD /* UIViewController+UIViewControllerExtensions.m */; };
+		D6FAB3331C716E46007311AD /* UploadEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB3321C716E46007311AD /* UploadEditViewController.m */; };
+		D6FAB3381C717E54007311AD /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB3371C717E54007311AD /* ItemModel.m */; };
+		D6FAB33B1C7180F9007311AD /* FakeDB.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB33A1C7180F9007311AD /* FakeDB.m */; };
+		D6FAB33E1C71ACCD007311AD /* ViewItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6FAB33D1C71ACCD007311AD /* ViewItemViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6FAB3081C70369F007311AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAB2E61C70369E007311AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAB2ED1C70369E007311AD;
+			remoteInfo = GyveProto;
+		};
+		D6FAB3131C70369F007311AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6FAB2E61C70369E007311AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6FAB2ED1C70369E007311AD;
+			remoteInfo = GyveProto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6FAB2EE1C70369F007311AD /* GyveProto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyveProto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB2F21C70369F007311AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D6FAB2F41C70369F007311AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D6FAB2F51C70369F007311AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D6FAB2F71C70369F007311AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D6FAB2F81C70369F007311AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D6FAB2FB1C70369F007311AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6FAB2FD1C70369F007311AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6FAB3001C70369F007311AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6FAB3021C70369F007311AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FAB3071C70369F007311AD /* GyveProtoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyveProtoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB30B1C70369F007311AD /* GyveProtoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GyveProtoTests.m; sourceTree = "<group>"; };
+		D6FAB30D1C70369F007311AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6FAB3121C70369F007311AD /* GyveProtoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GyveProtoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6FAB3281C712ECF007311AD /* UIView+UIViewExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIViewExtensions.h"; sourceTree = "<group>"; };
+		D6FAB3291C712ECF007311AD /* UIView+UIViewExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIViewExtensions.m"; sourceTree = "<group>"; };
+		D6FAB32B1C7156A8007311AD /* ImageSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSelectorViewController.h; sourceTree = "<group>"; };
+		D6FAB32C1C7156A8007311AD /* ImageSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSelectorViewController.m; sourceTree = "<group>"; };
+		D6FAB32E1C71693B007311AD /* UIViewController+UIViewControllerExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UIViewControllerExtensions.h"; sourceTree = "<group>"; };
+		D6FAB32F1C71693B007311AD /* UIViewController+UIViewControllerExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UIViewControllerExtensions.m"; sourceTree = "<group>"; };
+		D6FAB3311C716E46007311AD /* UploadEditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadEditViewController.h; sourceTree = "<group>"; };
+		D6FAB3321C716E46007311AD /* UploadEditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadEditViewController.m; sourceTree = "<group>"; };
+		D6FAB3361C717E54007311AD /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
+		D6FAB3371C717E54007311AD /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
+		D6FAB3391C7180F9007311AD /* FakeDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeDB.h; sourceTree = "<group>"; };
+		D6FAB33A1C7180F9007311AD /* FakeDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeDB.m; sourceTree = "<group>"; };
+		D6FAB33C1C71ACCD007311AD /* ViewItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewItemViewController.h; sourceTree = "<group>"; };
+		D6FAB33D1C71ACCD007311AD /* ViewItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewItemViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6FAB2EB1C70369E007311AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB3041C70369F007311AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB30F1C70369F007311AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6FAB2E51C70369E007311AD = {
+			isa = PBXGroup;
+			children = (
+				D6FAB2F01C70369F007311AD /* GyveProto */,
+				D6FAB30A1C70369F007311AD /* GyveProtoTests */,
+				D6FAB2EF1C70369F007311AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6FAB2EF1C70369F007311AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB2EE1C70369F007311AD /* GyveProto.app */,
+				D6FAB3071C70369F007311AD /* GyveProtoTests.xctest */,
+				D6FAB3121C70369F007311AD /* GyveProtoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6FAB2F01C70369F007311AD /* GyveProto */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB3351C717E20007311AD /* Data */,
+				D6FAB3341C717D09007311AD /* Views */,
+				D6FAB3241C712D7D007311AD /* Extensions */,
+				D6FAB2F41C70369F007311AD /* AppDelegate.h */,
+				D6FAB2F51C70369F007311AD /* AppDelegate.m */,
+				D6FAB2FD1C70369F007311AD /* Assets.xcassets */,
+				D6FAB2FF1C70369F007311AD /* LaunchScreen.storyboard */,
+				D6FAB3021C70369F007311AD /* Info.plist */,
+				D6FAB2F11C70369F007311AD /* Supporting Files */,
+			);
+			path = GyveProto;
+			sourceTree = "<group>";
+		};
+		D6FAB2F11C70369F007311AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB2F21C70369F007311AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D6FAB30A1C70369F007311AD /* GyveProtoTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB30B1C70369F007311AD /* GyveProtoTests.m */,
+				D6FAB30D1C70369F007311AD /* Info.plist */,
+			);
+			path = GyveProtoTests;
+			sourceTree = "<group>";
+		};
+		D6FAB3241C712D7D007311AD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB3281C712ECF007311AD /* UIView+UIViewExtensions.h */,
+				D6FAB3291C712ECF007311AD /* UIView+UIViewExtensions.m */,
+				D6FAB32E1C71693B007311AD /* UIViewController+UIViewControllerExtensions.h */,
+				D6FAB32F1C71693B007311AD /* UIViewController+UIViewControllerExtensions.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		D6FAB3341C717D09007311AD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB2FA1C70369F007311AD /* Main.storyboard */,
+				D6FAB2F71C70369F007311AD /* ViewController.h */,
+				D6FAB2F81C70369F007311AD /* ViewController.m */,
+				D6FAB32B1C7156A8007311AD /* ImageSelectorViewController.h */,
+				D6FAB32C1C7156A8007311AD /* ImageSelectorViewController.m */,
+				D6FAB3311C716E46007311AD /* UploadEditViewController.h */,
+				D6FAB3321C716E46007311AD /* UploadEditViewController.m */,
+				D6FAB33C1C71ACCD007311AD /* ViewItemViewController.h */,
+				D6FAB33D1C71ACCD007311AD /* ViewItemViewController.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		D6FAB3351C717E20007311AD /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D6FAB3361C717E54007311AD /* ItemModel.h */,
+				D6FAB3371C717E54007311AD /* ItemModel.m */,
+				D6FAB3391C7180F9007311AD /* FakeDB.h */,
+				D6FAB33A1C7180F9007311AD /* FakeDB.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6FAB2ED1C70369E007311AD /* GyveProto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB31B1C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProto" */;
+			buildPhases = (
+				D6FAB2EA1C70369E007311AD /* Sources */,
+				D6FAB2EB1C70369E007311AD /* Frameworks */,
+				D6FAB2EC1C70369E007311AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GyveProto;
+			productName = GyveProto;
+			productReference = D6FAB2EE1C70369F007311AD /* GyveProto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6FAB3061C70369F007311AD /* GyveProtoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB31E1C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProtoTests" */;
+			buildPhases = (
+				D6FAB3031C70369F007311AD /* Sources */,
+				D6FAB3041C70369F007311AD /* Frameworks */,
+				D6FAB3051C70369F007311AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAB3091C70369F007311AD /* PBXTargetDependency */,
+			);
+			name = GyveProtoTests;
+			productName = GyveProtoTests;
+			productReference = D6FAB3071C70369F007311AD /* GyveProtoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6FAB3111C70369F007311AD /* GyveProtoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6FAB3211C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProtoUITests" */;
+			buildPhases = (
+				D6FAB30E1C70369F007311AD /* Sources */,
+				D6FAB30F1C70369F007311AD /* Frameworks */,
+				D6FAB3101C70369F007311AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6FAB3141C70369F007311AD /* PBXTargetDependency */,
+			);
+			name = GyveProtoUITests;
+			productName = GyveProtoUITests;
+			productReference = D6FAB3121C70369F007311AD /* GyveProtoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6FAB2E61C70369E007311AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Jake Gardner, CTO";
+				TargetAttributes = {
+					D6FAB2ED1C70369E007311AD = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					D6FAB3061C70369F007311AD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D6FAB2ED1C70369E007311AD;
+					};
+					D6FAB3111C70369F007311AD = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = D6FAB2ED1C70369E007311AD;
+					};
+				};
+			};
+			buildConfigurationList = D6FAB2E91C70369E007311AD /* Build configuration list for PBXProject "GyveProto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6FAB2E51C70369E007311AD;
+			productRefGroup = D6FAB2EF1C70369F007311AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6FAB2ED1C70369E007311AD /* GyveProto */,
+				D6FAB3061C70369F007311AD /* GyveProtoTests */,
+				D6FAB3111C70369F007311AD /* GyveProtoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6FAB2EC1C70369E007311AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB3011C70369F007311AD /* LaunchScreen.storyboard in Resources */,
+				D6FAB2FE1C70369F007311AD /* Assets.xcassets in Resources */,
+				D6FAB2FC1C70369F007311AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB3051C70369F007311AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB3101C70369F007311AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6FAB2EA1C70369E007311AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB2F91C70369F007311AD /* ViewController.m in Sources */,
+				D6FAB32A1C712ECF007311AD /* UIView+UIViewExtensions.m in Sources */,
+				D6FAB32D1C7156A8007311AD /* ImageSelectorViewController.m in Sources */,
+				D6FAB2F61C70369F007311AD /* AppDelegate.m in Sources */,
+				D6FAB33E1C71ACCD007311AD /* ViewItemViewController.m in Sources */,
+				D6FAB33B1C7180F9007311AD /* FakeDB.m in Sources */,
+				D6FAB2F31C70369F007311AD /* main.m in Sources */,
+				D6FAB3331C716E46007311AD /* UploadEditViewController.m in Sources */,
+				D6FAB3381C717E54007311AD /* ItemModel.m in Sources */,
+				D6FAB3301C71693B007311AD /* UIViewController+UIViewControllerExtensions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB3031C70369F007311AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6FAB30C1C70369F007311AD /* GyveProtoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6FAB30E1C70369F007311AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6FAB3091C70369F007311AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAB2ED1C70369E007311AD /* GyveProto */;
+			targetProxy = D6FAB3081C70369F007311AD /* PBXContainerItemProxy */;
+		};
+		D6FAB3141C70369F007311AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6FAB2ED1C70369E007311AD /* GyveProto */;
+			targetProxy = D6FAB3131C70369F007311AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6FAB2FA1C70369F007311AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6FAB2FB1C70369F007311AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6FAB2FF1C70369F007311AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6FAB3001C70369F007311AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6FAB3191C70369F007311AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D6FAB31A1C70369F007311AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6FAB31C1C70369F007311AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GyveProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D6FAB31D1C70369F007311AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GyveProto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D6FAB31F1C70369F007311AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GyveProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyveProto.app/GyveProto";
+			};
+			name = Debug;
+		};
+		D6FAB3201C70369F007311AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GyveProtoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProtoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GyveProto.app/GyveProto";
+			};
+			name = Release;
+		};
+		D6FAB3221C70369F007311AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GyveProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GyveProto;
+			};
+			name = Debug;
+		};
+		D6FAB3231C70369F007311AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GyveProtoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.something.GyveProtoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = GyveProto;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6FAB2E91C70369E007311AD /* Build configuration list for PBXProject "GyveProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB3191C70369F007311AD /* Debug */,
+				D6FAB31A1C70369F007311AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6FAB31B1C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB31C1C70369F007311AD /* Debug */,
+				D6FAB31D1C70369F007311AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6FAB31E1C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProtoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB31F1C70369F007311AD /* Debug */,
+				D6FAB3201C70369F007311AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D6FAB3211C70369F007311AD /* Build configuration list for PBXNativeTarget "GyveProtoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6FAB3221C70369F007311AD /* Debug */,
+				D6FAB3231C70369F007311AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6FAB2E61C70369E007311AD /* Project object */;
+}
