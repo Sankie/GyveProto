@@ -55,7 +55,7 @@
 -(void)setCurrentItem:(ItemModel *)currentItem {
     _currentItem = currentItem;
     
-    self.noItemsLabel.hidden = currentItem;
+    self.noItemsLabel.hidden = !!currentItem;
     self.itemWrapper.hidden = !currentItem;
     
     if (currentItem) {
